@@ -2,6 +2,7 @@
   <div id="app">
     <video autoplay muted loop id="myVideo">
       <source src="@/assets/animatedChamps.webm" type="video/webm">
+      Your browser does not support the video tag.
     </video>
     <div id="header" class="container-fluid">
       <app-header></app-header>
@@ -57,6 +58,8 @@ export default {
   height: auto;
   z-index: -1;
   overflow: hidden;
+  background: url('@/assets/animatedZed.mp4') no-repeat center center;
+  background-size: cover;
 }
 #content {
   position: relative;
