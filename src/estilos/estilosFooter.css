@@ -1,0 +1,30 @@
+.app-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #141414 35%,#3a3a3a 75%, #363636 100%);
+    justify-content: flex-start;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    list-style: none;
+    margin-left: 20px;
+    color: white;
+  }
+  
+  .contact-info .active {
+    text-decoration: underline;
+  }
+  
+  .contact-info a {
+    color: white;
+    text-decoration: none;
+  }

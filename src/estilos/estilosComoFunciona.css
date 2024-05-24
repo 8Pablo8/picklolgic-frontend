@@ -1,0 +1,19 @@
+.container i {
+    color: #bfaa6c;
+}
+
+.container h1 {
+    color: #bfaa6c;
+}
+
+.link-lolalytics{
+    text-decoration: none;
+}
+
+.subraya-campeon{
+    text-decoration: underline;
+}
+
+#contenedor-texto{
+    background-image: linear-gradient(to right, #141414 40%, #363636 80%, #4b4b4b 100%);
+}

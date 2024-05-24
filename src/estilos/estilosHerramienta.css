@@ -1,0 +1,48 @@
+  .autocomplete-suggestions {
+    background-color: white;
+    border: 1px solid #ddd;
+    list-style: none;
+    margin-top: 1px;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  .autocomplete-suggestions li:hover {
+    background-color: #f8f9fa;
+  }
+  
+  #circulo {
+    background-image: linear-gradient(to right, #141414 40%, #363636 80%, #4b4b4b 100%);
+    opacity: 90%;
+    border: #0a0a0a solid 1em;
+    position: relative; /* Necesario para posicionar el pseudo-elemento */
+    width: 200px;  /* Ajusta según sea necesario */
+    height: 200px; /* Ajusta según sea necesario */
+    border-radius: 50%; /* Si deseas un borde circular */
+  }
+
+  
+  .btn-granate {
+    background-color: #800000;
+    color: white;
+    border: #800000;
+    padding: 10px 20px; /* Incrementa el tamaño del botón */
+    font-size: 1.25rem; /* Tamaño de fuente más grande */
+    border-radius: 2em;
+    margin-left: 200px;
+  }
+  
+  .btn-secondary {
+    background-color: grey;
+    color: white;
+    border: grey;
+    padding: 10px 20px; /* Incrementa el tamaño del botón */
+    font-size: 1.25rem; /* Tamaño de fuente más grande */
+    border-radius: 2em;
+    margin-left: 150px;
+  }
+
+  .subtitle{
+    color: rgb(245, 187, 80);
+  }
